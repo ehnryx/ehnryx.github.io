@@ -205,9 +205,15 @@ pre code {
   font-family: var(--mono-font-stack);
 }
 
+.terminal h1 {
+  font-size: var(--global-font-size);
+  font-style: normal;
+  font-family: var(--font-stack);
+  color: var(--primary-color);
+}
+
 .terminal blockquote,
 .terminal code,
-.terminal h1,
 .terminal h2,
 .terminal h3,
 .terminal h4,
