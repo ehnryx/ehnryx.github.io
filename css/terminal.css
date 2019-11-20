@@ -40,7 +40,13 @@
   color: var(--invert-font-color);
 }
 
+html, body {
+	height: 100%;
+}
+
 body {
+	display: flex;
+	flex-direction: column;
   font-size: var(--global-font-size);
   color: var(--font-color);
   line-height: var(--global-line-height);
@@ -48,6 +54,32 @@ body {
   font-family: var(--font-stack);
   word-wrap: break-word;
   background-color: var(--background-color);
+}
+
+.main-content {
+	flex: 1 0 auto;
+}
+
+header.terminal-header {
+	font-size: var(--global-font-size);
+	font-style: normal;
+	font-family: var(--font-stack);
+	font-weight: bold;
+	color: var(--header-color);
+	white-space: nowrap;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.terminal-footer {
+	flex-shrink: 0;
+  font-size: calc(var(--global-font-size) * 0.8);
+	font-style: normal;
+	font-family: var(--font-stack);
+	color: var(--secondary-color);
+	text-align: center;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 h1,
@@ -222,17 +254,6 @@ pre code {
   font-family: var(--font-stack);
   color: var(--strong-color);
 	white-space: nowrap;
-}
-
-header.terminal-header {
-	font-size: var(--global-font-size);
-	font-style: normal;
-	font-family: var(--font-stack);
-	font-weight: bold;
-	color: var(--header-color);
-	white-space: nowrap;
-	padding-top: 6px;
-	padding-bottom: 6px;
 }
 
 .terminal-prompt {
