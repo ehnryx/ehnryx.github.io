@@ -299,7 +299,7 @@ li::after {
 }
 
 ul > li::after {
-  content: "-";
+  content: ">";
 }
 
 nav ul > li::after {
