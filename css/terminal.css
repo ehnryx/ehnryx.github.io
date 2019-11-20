@@ -222,6 +222,15 @@ pre code {
 	white-space: nowrap;
 }
 
+header.terminal-header {
+	font-size: var(--global-font-size);
+	font-style: normal;
+	font-family: var(--font-stack);
+	font-weight: bold;
+	color: var(--primary-color);
+	white-space: nowrap;
+}
+
 .terminal-prompt {
   position: relative;
   white-space: nowrap;
