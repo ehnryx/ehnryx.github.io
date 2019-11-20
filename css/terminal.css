@@ -10,8 +10,10 @@
 		serif;
 	--background-color: #171717;
 	--page-width: 60em;
-	--font-color: #d2d5e2;
-	--invert-font-color: #171717;
+	--font-color: #c1c5c7;
+	--invert-font-color: #222222;
+	--header-color: #76c928;
+	--strong-color: #e3e7ed;
 	--secondary-color: #a3abba;
 	--tertiary-color: #a3abba;
 	--primary-color: #62c4ff;
@@ -218,7 +220,7 @@ pre code {
   font-size: var(--global-font-size);
   font-style: normal;
   font-family: var(--font-stack);
-  color: var(--font-color);
+  color: var(--strong-color);
 	white-space: nowrap;
 }
 
@@ -227,8 +229,10 @@ header.terminal-header {
 	font-style: normal;
 	font-family: var(--font-stack);
 	font-weight: bold;
-	color: var(--primary-color);
+	color: var(--header-color);
 	white-space: nowrap;
+	padding-top: 6px;
+	padding-bottom: 6px;
 }
 
 .terminal-prompt {
