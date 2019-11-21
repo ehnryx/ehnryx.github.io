@@ -4,7 +4,6 @@ title: "About"
 head_title: "Henry Xia"
 ---
 
-- Henry Xia
 - UBC student, fourth year
 - Mathematics and Computer Science
 - competitive programmer
