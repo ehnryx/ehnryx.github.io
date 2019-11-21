@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+
+	<body>
+		<div class="main-content">
+			{% include navbar.html %}
+
+			<div class="container terminal">
+				<h1>
+					{{ page.title }}<br/>
+					{{ page.date | date: "%Y %B %d" }}
+				</h1>
+
+				{{ content }}
+			</div>
+		</div>
+
+		{% include footer.html %}
+	</body>
+
+</html>
