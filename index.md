@@ -15,7 +15,8 @@ head_title: "Henry Xia"
 
 ## Things I Like
 
-- analytic combinatorics
+- combinatorics
+- graph theory
 - table tennis
 - cake
 - problems
