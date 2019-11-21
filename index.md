@@ -13,7 +13,7 @@ head_title: "Henry Xia"
 
 <br/>
 
-## Things I Like
+## Things I like
 
 - combinatorics
 - graph theory
@@ -23,7 +23,7 @@ head_title: "Henry Xia"
 
 <br/>
 
-## Things I Dislike
+## Things I dislike
 
 - bugs
 - bugs
