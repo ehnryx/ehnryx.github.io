@@ -228,7 +228,6 @@ code {
 
 code::after,
 code::before {
-  content: "`";
   display: inline;
 }
 
