@@ -7,10 +7,12 @@
 			{% include navbar.html %}
 
 			<div class="container terminal">
-				<h1>
-					{{ page.title }}<br/>
-					{{ page.date | date: "%Y %B %d" }}
+				<h1 style="margin-bottom:0px;padding-bottom:0px;">
+					{{ page.title }}
 				</h1>
+				<h2 style="margin-top:0px;padding-top:0px;">
+					{{ page.date | date: "%Y %B %d" }}
+				</h2>
 
 				{{ content }}
 			</div>
