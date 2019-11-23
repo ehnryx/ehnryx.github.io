@@ -7,17 +7,15 @@
 			{% include navbar.html %}
 
 			<div class="container terminal">
-				<h2 style="margin-bottom:0px;padding-bottom:0px;">
-					{{ page.title }}
-				</h2>
-				<h2 style="margin-top:0px;padding-top:0px;">
+				<h1 style="word-wrap: break-word; white-space: normal;">
+					{{ page.title }}<br />
 					{{ page.date | date: "%Y %B %d" }}
-				</h2>
+				</h1>
 
 				{{ content }}
 			</div>
 
-			<div class="container" style="margin-top=2em;padding-top=2em;">
+			<div class="container">
 				{% include subscribe.html %}
 			<div>
 		</div>
