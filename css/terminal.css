@@ -97,15 +97,10 @@ header.terminal-header::after {
   font-size: var(--global-font-size);
   font-style: normal;
   font-family: var(--font-stack);
-  color: var(--font-color);
+  color: var(--secondary-color);
   text-align: center;
   padding-top: 6px;
   padding-bottom: 6px;
-}
-
-.terminal-footer p {
-  font-size: calc(var(--global-font-size) * 0.8);
-  color: var(--secondary-color);
 }
 
 h1,
