@@ -9,4 +9,4 @@ it works, how it works, why it works, or what it does (sorry if I unintentionall
 
 Also, I should probably go solve some problems\.\.\.
 
-[eyqs]: https://eyqs.ca
+[eyqs]: https://eyqs.ca/
