@@ -213,6 +213,10 @@ blockquote {
   background-color: var(--quote-bg-color);
 }
 
+blockquote.p {
+	margin-bottom: 0;
+}
+
 code {
   font-weight: inherit;
   background-color: var(--code-bg-color);
