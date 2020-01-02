@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Buff fingers &ge; creativity"
+title: "Buff fingers > creativity"
 head_title: "Buff fingers"
 ---
 
