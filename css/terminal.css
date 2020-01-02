@@ -211,10 +211,8 @@ blockquote {
   overflow: hidden;
   border-left: 3px solid;
   background-color: var(--quote-bg-color);
-}
-
-blockquote.p {
-	margin-bottom: 0;
+	padding-top: var(--global-line-height);
+	padding-right: var(--global-line-height);
 }
 
 code {
