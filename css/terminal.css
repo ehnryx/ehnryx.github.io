@@ -274,7 +274,7 @@ pre code {
   font-style: normal;
   font-family: var(--font-stack);
   color: var(--strong-color);
-  white-space: nowrap;
+  white-space: normal;
 }
 
 .terminal-prompt {
