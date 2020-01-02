@@ -21,6 +21,7 @@
   --progress-bar-background: #3f3f44;
   --progress-bar-fill: #62c4ff;
   --code-bg-color: #3f3f44;
+  --quote-bg-color: #2e2e33;
   --input-style: solid;
   --display-h1-decoration: none;
 }
@@ -208,16 +209,8 @@ blockquote {
   padding-left: calc(var(--global-space) * 2);
   padding-left: 2ch;
   overflow: hidden;
-}
-
-blockquote::after {
-  content: ">\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>\A>";
-  white-space: pre;
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: var(--global-line-height);
-  color: #9ca2ab;
+  border-left: 3px;
+  background-color: var(--quote-bg-color);
 }
 
 code {
